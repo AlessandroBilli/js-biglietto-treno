@@ -12,3 +12,14 @@ Inizialmente, il programma richiederà all'utente di fornire le seguenti informa
 
 ## Calcolo del Prezzo
 Il programma utilizzerà le informazioni fornite dall'utente per calcolare il prezzo del biglietto, in base alla distanza e all'età del passeggero. L'età è importante poichè saranno previsti sconti in base all'età del passeggero.
+
+Prezzo biglietto: 
+
+- Prezzo del Biglietto = Distanza * 0.21 € al km
+
+ Sconti basati sull'età dell'utente:
+
+- Sconto del 20% per i minorenni.
+- Sconto del 40% per gli over 65.
+
+Il programma calcolerà il prezzo finale del biglietto, tenendo conto dei chilometri percorsi e degli sconti basati sull'età.
