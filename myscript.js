@@ -17,7 +17,15 @@ if (età < 18) {
     const sconto = (prezzo * percentualeVenti) / 100;
     console.log('Sconto del 20%:', sconto);
     const prezzoScontato = prezzo - sconto;
-    console.log('Prezzo con lo sconto:', prezzoScontato);
+    console.log('Prezzo con lo sconto:', prezzoScontato.toFixed(2)  );
+  }
+
+  if (età > 65) {
+    const percentualeQuaranta = 40;
+    const sconto = (prezzo * percentualeQuaranta) / 100;
+    console.log('Sconto del 40%:', sconto);
+    const prezzoScontato = prezzo - sconto;
+    console.log('Prezzo con lo sconto:', prezzoScontato.toFixed(2));
   }
 
 
